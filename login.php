@@ -62,12 +62,12 @@ if(isset($_REQUEST['login']))
 
 <!--	Title
 	=========================================================-->
-<title>Homex - Real Estate Template</title>
+<title>PropertyPro - Real Estate</title>
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
+	
+<!--========================= Page Loader ====================================--> 
 <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
@@ -75,7 +75,7 @@ if(isset($_REQUEST['login']))
 	  </div>
 	</div>
 </div>
---> 
+
 
 
 <div id="page-wrapper">
@@ -89,6 +89,7 @@ if(isset($_REQUEST['login']))
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
+						<h2 class="">Welcome Back!</h2>
                         <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Login</b></h2>
                     </div>
                     <div class="col-md-6">
@@ -115,6 +116,7 @@ if(isset($_REQUEST['login']))
 								<h1>Login</h1>
 								<p class="account-subtitle">Access to our dashboard</p>
 								<?php echo $error; ?><?php echo $msg; ?>
+								
 								<!-- Form -->
 								<form method="post">
 									<div class="form-group">

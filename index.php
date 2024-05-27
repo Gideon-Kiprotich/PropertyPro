@@ -9,12 +9,9 @@ include("config.php");
 <html lang="en">
 
 <head>
-<!-- Required meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<!-- Meta Tags -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="shortcut icon" href="images\favicon.ico">
 
@@ -159,14 +156,17 @@ include("config.php");
                     <div class="col-md-12">
                         <h2 class="text-secondary double-down-line text-center mb-4">Recent Property</h2>
                     </div>
-                    <!--- <div class="col-md-6">
+                    
+                     <!-- -->
+                    <div class="col-md-6">
                         <ul class="nav property-btn float-right" id="pills-tab" role="tablist">
                             <li class="nav-item"> <a class="nav-link py-3 active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">New</a> </li>
                             <li class="nav-item"> <a class="nav-link py-3" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Featured</a> </li>
                             <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab2" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Top Sale</a> </li>
                             <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab3" data-toggle="pill" href="#pills-resturant" role="tab" aria-controls="pills-contact" aria-selected="false">Best Sale</a> </li>
                         </ul>
-                    </div> --->
+                         <!-- -->
+                    </div> 
                     <div class="col-md-12">
                         <div class="tab-content mt-4" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home">
@@ -376,7 +376,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='gujarat'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='Mombasa'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -391,7 +391,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='mumbai'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='Kisumu'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -406,7 +406,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='banglore'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='Nairobi'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
@@ -421,7 +421,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/4.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='rajasthan'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='Nakuru'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>

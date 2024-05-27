@@ -74,14 +74,12 @@ if(isset($_REQUEST['reg']))
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/login.css">
 
-<!--	Title
-	=========================================================-->
-<title>Homex - Real Estate Template</title>
+<!--========================= Title ================================-->
+<title>PropertyPro - Real Estate</title>
 </head>
 <body>
-
-<!--	Page Loader
-=============================================================
+	
+<!--========================= Page Loader ====================================--> 
 <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
@@ -89,7 +87,7 @@ if(isset($_REQUEST['reg']))
 	  </div>
 	</div>
 </div>
---> 
+
 
 
 <div id="page-wrapper">
@@ -98,7 +96,7 @@ if(isset($_REQUEST['reg']))
 		<?php include("include/header.php");?>
         <!--	Header end  -->
         
-        <!--	Banner   --->
+        <!--	Banner   -->
         <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
@@ -116,7 +114,7 @@ if(isset($_REQUEST['reg']))
                 </div>
             </div>
         </div>
-         <!--	Banner   --->
+         <!--	Banner   -->
 		 
 		 
 		 
@@ -127,7 +125,7 @@ if(isset($_REQUEST['reg']))
                         <div class="login-right">
 							<div class="login-right-wrap">
 								<h1>Register</h1>
-								<p class="account-subtitle">Access to our dashboard</p>
+								<p class="account-subtitle">Fill in your personal details</p>
 								<?php echo $error; ?><?php echo $msg; ?>
 								<!-- Form -->
 								<form method="post" enctype="multipart/form-data">
@@ -143,7 +141,9 @@ if(isset($_REQUEST['reg']))
 									<div class="form-group">
 										<input type="text" name="pass"  class="form-control" placeholder="Your Password*">
 									</div>
-
+									<div class="form-group">
+										<input type="text" name="pass"  class="form-control" placeholder="Confirm Password*">
+									</div>
 									 <div class="form-check-inline">
 									  <label class="form-check-label">
 										<input type="radio" class="form-check-input" name="utype" value="user" checked>User
@@ -151,12 +151,12 @@ if(isset($_REQUEST['reg']))
 									</div>
 									<div class="form-check-inline">
 									  <label class="form-check-label">
-										<input type="radio" class="form-check-input" name="utype" value="agent">Agent
+										<input type="radio" class="form-check-input" name="utype" value="agent">Landlord
 									  </label>
 									</div>
 									<div class="form-check-inline disabled">
 									  <label class="form-check-label">
-										<input type="radio" class="form-check-input" name="utype" value="builder">Builder
+										<input type="radio" class="form-check-input" name="utype" value="builder">Admin
 									  </label>
 									</div> 
 									

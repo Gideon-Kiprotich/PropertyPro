@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 03, 2020 at 11:34 PM
+-- Generation Time: May 15, 2024 at 11:34 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -251,8 +251,6 @@ INSERT INTO `user` (`uid`, `uname`, `uemail`, `uphone`, `upass`, `utype`, `uimag
 (14, 'admin', 'admin@gmail.com', '9876543210', 'admin', 'user', '3.jpg'),
 (15, 'aryan', 'aryan@gmail.com', '9878678678', 'aryan', 'agent', '2.jpg'),
 (16, 'demo', 'demo@gmail.com', '7976976979', 'demo', 'user', '1.jpg'),
-(21, 'disha', 'disha@gmail.com', '7976956956', 'disha', 'agent', '2.jpg'),
-(22, 'disha', 'disha1@gmail.com', '8997897869', 'disha', 'agent', '1.jpg'),
 (23, 'testing', 'testing@gmail.com', '9869596597', 'testing', 'builder', '1.jpg'),
 (24, 'some', 'some@gmail.com', '9689698697', 'some', 'builder', '3.jpg'),
 (25, 'test', 'test12@gmail.com', '9798678969', 'test', 'builder', 'avatar-3.jpg');
